@@ -491,7 +491,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7380,
+				"buffer_size": 9231,
 				"line_ending": "Unix"
 			}
 		},
@@ -500,6 +500,49 @@
 			"settings":
 			{
 				"buffer_size": 1523,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/grayscale.css",
+			"settings":
+			{
+				"buffer_size": 7149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/grayscale.js",
+			"settings":
+			{
+				"buffer_size": 5355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "font-awesome/css/font-awesome.css",
+			"settings":
+			{
+				"buffer_size": 26651,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n    <link rel=\"icon\" href=\"images/circle-logo.png\">\n\n    <title>RealTalk Music</title>\n\n    <!-- Bootstrap core CSS -->\n    <link href=\"bootstrap-3.3.5/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <!-- Custom styles for this template -->\n    <link href=\"css/home-page.css\" rel=\"stylesheet\">\n\n    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->\n    <!--[if lt IE 9]><script src=\"../../assets/js/ie8-responsive-file-warning.js\"></script><![endif]-->\n    <script src=\"bootstrap-3.3.5/assets/js/ie-emulation-modes-warning.js\"></script>\n\n    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->\n    <!--[if lt IE 9]>\n      <script src=\"https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\n      <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n  </head>\n\n  <body>\n\n    <nav class=\"navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"#\">RealTalk</a>\n        </div>\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n          <ul class=\"nav navbar-nav\">\n            <li class=\"active\"><a href=\"#\">Home</a></li>\n            <li><a href=\"#about\">About</a></li>\n            <li><a href=\"#music\">Music</a></li>\n            <li><a href=\"#shows\">Shows</a></li>\n            <li><a href=\"#contact\">Contact</a></li>\n          </ul>\n        </div><!--/.nav-collapse -->\n      </div>\n    </nav>\n\n<!-- MOBILE VIEW ************-->\n    <div class=\"container hidden-sm hidden-md hidden-lg\" style=\"padding: 0 0 0 0\">\n\n      <div class=\"home-page\" style=\"background: #000 url(images/circle-logo.png) 50% 50% no-repeat; height:100vh; width: 100vw;\">\n        <h1>Mobile</h1>\n        <p class=\"lead\"></p>\n      </div>\n\n    </div><!-- /.container -->\n\n<!-- SMALL VIEW ************-->\n    <div class=\"container hidden-xs hidden-md hidden-lg\" style=\"margin-right: 0; margin-left:0; padding: 0 0 0 0;\">\n\n      <div class=\"home-page\" style=\"background: #000 url(images/cassette2.png) 50% 50% no-repeat; background-size: contain; height:100vh; width: 100vw;\">\n        <!-- /*width:100%; height:100%; background-img: url(images/cassette1.jpg); background-size: cover; background-poistion: 50% 0%; background-repeat: no-repeat;*/ -->\n        <h1>Small</h1>\n        <p class=\"lead\"></p>\n      </div>\n\n    </div><!-- /.container -->\n\n<!-- MEDIUM VIEW ************-->\n    <div class=\"container hidden-xs hidden-sm hidden-lg\" style=\"margin-right: 0; margin-left:0; padding: 0 0 0 0;\">\n\n      <div class=\"home-page\" style=\"background: #000 url(images/cassette1.jpg) 50% 50% no-repeat; background-size: contain; height:100vh; width: 100vw;\">\n        <h1>Medium</h1>\n        <p class=\"lead\"></p>\n      </div>\n\n    </div><!-- /.container -->\n\n<!-- LARGE VIEW ************-->\n    <div class=\"container hidden-xs hidden-sm hidden-md\" style=\"margin-right: 0; margin-left:0; padding: 0 0 0 0; background-color: #000\">\n\n      <div class=\"home-page\" style=\"background: #000 url(images/cassette2.png) 50% 50% no-repeat; background-size: contain; height:642px; width: 100vw;\">\n        <h1 style=\"margin-top: 50px; font-size: 100px;\">RealTalk</h1>\n        <ul class=\"headings-unordered-list\">\n          <li class=\"headings-list-instance\">\n            <a class=\"headings-home\" href=\"about.html\" title=\"About\">About</a>\n          </li>\n          <li class=\"headings-list-instance\">\n            <a class=\"headings-home\" href=\"#\" title=\"Music\">Music</a>\n          </li>\n          <li class=\"headings-list-instance\">\n            <a class=\"headings-home\" href=\"#\" title=\"Shows\">Shows</a>\n          </li>\n          <li class=\"headings-list-instance\">\n            <a class=\"headings-home\" href=\"#\" title=\"Contact\">Contact</a>\n          </li>\n        </ul>        \n      </div>\n\n    </div><!-- /.container -->\n\n<!-- ********************************************************* -->\n<!-- custom js -->\n    <script src=\"js/home-page.js\"></script>\n\n    <!-- Bootstrap core JavaScript\n    ================================================== -->\n    <!-- Placed at the end of the document so the pages load faster -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js\"></script>\n    <script src=\"bootstrap-3.3.5/dist/js/bootstrap.min.js\"></script>\n    \n    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->\n    <script src=\"bootstrap-3.3.5/assets/js/ie10-viewport-bug-workaround.js\"></script>\n  </body>\n</html>\n",
+			"file": "/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/index.html",
+			"file_size": 5204,
+			"file_write_time": 1445297959000000,
+			"settings":
+			{
+				"buffer_size": 5300,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/css/home-page.css",
+			"settings":
+			{
+				"buffer_size": 1456,
 				"line_ending": "Unix"
 			}
 		}
@@ -528,10 +571,11 @@
 	},
 	"file_history":
 	[
+		"/Users/jakewhite/Documents/CS/angular_phonecat/angular-phonecat.sublime-project",
+		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/index.html",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/js/home-page.js",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/css/home-page.css",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/about.html",
-		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/index.html",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/hello.html",
 		"/Users/jakewhite/Documents/CS/angular_phonecat/app/js/controllers.js",
 		"/Users/jakewhite/Documents/CS/angular_phonecat/app/index.html",
@@ -654,8 +698,7 @@
 		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-10/d3/check2.html",
 		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-9/check1.html",
 		"/Users/jakewhite/Documents/CS/java_source/StatisticalInsights.java",
-		"/Users/jakewhite/Documents/Senior/software_dev/project/tits/StatisticalInsightsApp/StatisticalInsights.java",
-		"/Users/jakewhite/Desktop/demo-form.asp"
+		"/Users/jakewhite/Documents/Senior/software_dev/project/tits/StatisticalInsightsApp/StatisticalInsights.java"
 	],
 	"find":
 	{
@@ -676,6 +719,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"icon",
+			"Download",
+			"fa-play-circle",
+			"start",
+			"intro-bg",
+			"intro",
+			"intro-bg",
 			"col",
 			"hidden",
 			"create",
@@ -796,14 +846,7 @@
 			"_af_",
 			"getUsers",
 			"charttest",
-			"chartTest",
-			"chart255",
-			"af_array_1",
-			"+i+",
-			"x",
-			" i",
-			"+ i",
-			"+i"
+			"chartTest"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -949,7 +992,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -957,15 +1000,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 7380,
+						"buffer_size": 9231,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								6377,
+								6377
 							]
 						],
 						"settings":
@@ -975,7 +1018,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1950.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -992,13 +1035,157 @@
 						"selection":
 						[
 							[
+								1066,
+								1066
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/grayscale.css",
+					"settings":
+					{
+						"buffer_size": 7149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3003,
+								3003
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1999.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/grayscale.js",
+					"settings":
+					{
+						"buffer_size": 5355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
 								0,
 								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "font-awesome/css/font-awesome.css",
+					"settings":
+					{
+						"buffer_size": 26651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17391,
+								17391
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14715.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/index.html",
+					"settings":
+					{
+						"buffer_size": 5300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4444,
+								4444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1513.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/css/home-page.css",
+					"settings":
+					{
+						"buffer_size": 1456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1026,11 +1213,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.73359375,
 			1.0
 		],
 		"rows":
@@ -1068,7 +1262,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 214.0,
 	"status_bar_visible": true
 }

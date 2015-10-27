@@ -25,6 +25,14 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+    <!-- angular -->
+    <!-- // <script src="angular/angular.js"></script> -->
+    <!-- controller for angular -->
+
+    <!-- shows api query -->
+    <script src="js/calender.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,7 +67,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#music">music</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -77,23 +85,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <ul style="padding-top:60%;">
-                            <li style="display:inline-block; height:40px; width: 40px;">
+                        <ul style="padding-top:500px;">
+                            <li style="display:inline-block; margin-right: 60px; height:80px; width: 80px;">
                                 <a class="page-scroll" href="#about" >
                                     <img src="img/black_about.jpg" height="100%" width="100%">
                                 </a>
                             </li>
-                            <li style="display:inline-block; height:40px; width: 40px;">
-                                <a class="page-scroll" href="#download" >
+                            <li style="display:inline-block; margin-right: 60px; height:80px; width: 80px;">
+                                <a class="page-scroll" href="#music" >
                                     <img src="img/black_music.jpg" height="100%" width="100%">
                                 </a>
                             </li>
-                            <li style="display:inline-block; height:40px; width: 40px;">
-                                <a class="page-scroll" href="#download" >
+                            <li style="display:inline-block; margin-right: 60px; height:80px; width: 80px;">
+                                <a class="page-scroll" href="#shows" >
                                     <img src="img/black_shows.jpg" height="100%" width="100%">
                                 </a>
                             </li>
-                            <li style="display:inline-block; height:40px; width: 40px;">
+                            <li style="display:inline-block; margin-right: 60px; height:80px; width: 80px;">
                                 <a class="page-scroll" href="#contact" >
                                     <img src="img/black_contact.jpg" height="100%" width="100%">
                                 </a>
@@ -116,24 +124,52 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <img src="img/about_header.png">
-                <p>Insert shit about the band HERE</p>
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
             </div>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <!-- music Section -->
+    <section id="music" class="content-section text-center">
+        <div class="music-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <!-- <iframe width="50%" height="50%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196388889&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe> -->
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <img src="img/music_header.png">
+                    <!-- <iframe style="margin-top:50px"width="100%" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/64095944&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe> -->
+                    <!-- <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196388889&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe> -->
+                    <iframe style="margin-top:50px"width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/122788772&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                    <!-- <h2>music Grayscale</h2> -->
+                    <!-- <p>You can music Grayscale for free on the preview page at Start Bootstrap.</p> -->
+                    <!-- <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit music Page</a> -->
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Shows Section -->
+    <section id="shows" class="container content-section text-center" stlye="background-color: red">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <img src="img/shows_header.png">
+<!--                     <ul ng-controller="EventListCtrl">
+                      <li ng-repeat="event in events">
+                        <span>{{event.summary}}</span>
+                        <p>{{event.description}}</p>
+                        <p>{{event.location}}</p>
+                      </li>
+                    </ul> -->
+                <div id="authorize-div" style="display: none">
+                  <span>Authorize access to Google Calendar API</span>
+                  <!--Button for the user to click to initiate auth sequence -->
+                  <button id="authorize-button" onclick="handleAuthClick(event)">
+                    Authorize
+                  </button>
+                </div>
+                <p id="output" style="background-color: white; font-weight:bold"></p>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">

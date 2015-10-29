@@ -91,22 +91,18 @@
 
         });
       }
-// var a = document.getElementById('yourlinkId'); //or grab it by tagname etc
-// a.href = "somelink url"
+
       //send link to venue/tickets page to '<a>' tag
       function appendLink(message, count) {
-        // var b = document.querySelector("button"); 
-
         var aTag = document.getElementById('link-'+count);
         aTag.setAttribute("href", "https://" + message);
-        // var textContent = document.createTextNode(message + '\n');
-        // aTag.appendChild(textContent);
       }
       /**
-       * Append a paragraph element to the body containing the given message
-       * as its text node.
+       * Append date and time to appropriate places in website
+       * 
        *
-       * @param {string} message Text to be placed in pre element.
+       * @param {date} start_time - timestamp of starting time.
+       * @param {date} end_time - timestamp of ending time.
        */
       function appendDateTime(start_time, end_time, count) {
 
@@ -124,8 +120,6 @@
         hours_minutes_array_end[1] = ("0" + finish.getMinutes()).slice(-2)
 
         var time_message = hours_minutes_array_start[0] + ":" + hours_minutes_array_start[1] + " - " + hours_minutes_array_end[0] + ":" + hours_minutes_array_end[1]
-        
-        // console.log(time_message)
 
         if(!time_message)
         {
@@ -137,40 +131,20 @@
         }
 
         // date
-        var month, day, year
+        var month, day, year, date_message
 
         month = begin.getMonth() + 1
         day = begin.getDate()
         year = begin.getFullYear()
 
-        // console.log('date: ' + begin)
-        // console.log('date: ' + month + '/' + day + '/' + year)
-
-        var date_message =  month + '/' + day + '/' + year
+        date_message =  month + '/' + day + '/' + year
         document.getElementById('date-'+count).innerHTML = date_message;
 
-        // var date_holder = document.getElementById('date-'+count);
-        // var textContent = document.createTextNode(message + '\n');
-        // date_holder.appendChild(textContent);
-
-        // if (!when_start) {
-        //   when_start = event.start.date;
-        // }
-
-        
-        // var hours = time.getHours();
-        // var minutes = time.getMinutes();
-        // console.log(hours + ':' + minutes)
       }
 
+      //send venue name to html
       function appendLocation(message, count) {
         var paragraph = document.getElementById('location-'+count);
         var textContent = document.createTextNode(message + '\n');
         paragraph.appendChild(textContent);
       }
-      // function appendDate(message)
-      // {
-      //   var pre = document.getElementById('output');
-      //   var textContent = document.createTextNode(message + '\n');
-      //   pre.appendChild(textContent);
-      // }      

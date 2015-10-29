@@ -76,14 +76,20 @@
           var events = resp.items;
           appendPre('Upcoming events:');
           
+          //strigify json object to make readable for testing
+          var send_object = JSON.stringify(events, null, 4);
+
+          appendPre(send_object);
           if (events.length > 0) {
             for (i = 0; i < events.length; i++) {
               var event = events[i];
-              var when = event.start.dateTime;
+              var when = event.start.dateTime; //extract show date
+              
               if (!when) {
                 when = event.start.date;
               }
               appendPre(event.summary + ' (' + when + ')')
+              
             }
           } else {
             appendPre('No upcoming events found.');
@@ -91,6 +97,7 @@
 
         });
       }
+      
 
       /**
        * Append a pre element to the body containing the given message
@@ -116,6 +123,8 @@
         Authorize
       </button>
     </div>
-    <pre id="output"></pre>
+    <a class="link-1">
+      <pre id="output"></pre>
+    </a>
   </body>
 </html>

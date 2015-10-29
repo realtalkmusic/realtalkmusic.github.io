@@ -45,13 +45,13 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: black;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
 
-a:hover,
+a:hover{color:red;},
 a:focus {
     text-decoration: none;
     color: #1d9b6c;

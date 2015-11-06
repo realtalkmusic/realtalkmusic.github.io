@@ -148,8 +148,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/cassette.jpg) no-repeat center center scroll;
-    background-color: #000;
+    background: url(../img/casette.png) no-repeat center center scroll;
+    background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

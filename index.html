@@ -17,6 +17,10 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Arrow to top CSS-->
+    <link href="css/style-back-to-top.css" rel="stylesheet">
+    <!-- <link href="css/reset.css" rel="stylesheet"> -->
+
     <!-- Custom CSS -->
     <link href="css/realtalk.css" rel="stylesheet">
 
@@ -26,94 +30,20 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top hidden-lg hidden-md hidden-sm hidden-xs" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Realtalk</span> Music
-                </a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#music">music</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <a href="#0" class="cd-top"></a>
     </nav>
 
-    <!-- Intro Header -->
-   <!--  <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <ul style="position: absolute;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="display:inline-block;">
-                                <a class="page-scroll" href="#about" >
-                                    <img src="img/black_about.png" onmouseover="this.src='img/about_hover.png'" onmouseout="this.src='img/black_about.png'" height="100%" width="100%">
-                                </a>
-                            </li>
-                            <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="display:inline-block;">
-                                <a class="page-scroll" href="#music" >
-                                    <img src="img/black_music.png" onmouseover="this.src='img/music_hover.png'" onmouseout="this.src='img/black_music.png'"height="100%" width="100%">
-                                </a>
-                            </li>
-                            <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="display:inline-block;">
-                                <a class="page-scroll" href="#shows" >
-                                    <img src="img/black_shows.png" onmouseover="this.src='img/shows_hover.png'" onmouseout="this.src='img/black_shows.png'"height="100%" width="100%">
-                                </a>
-                            </li>
-                            <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="display:inline-block;">
-                                <a class="page-scroll" href="#contact" >
-                                    <img src="img/black_contact.png" onmouseover="this.src='img/contact_hover.png'" onmouseout="this.src='img/black_contact.png'"height="100%" width="100%">
-                                </a>
-                            </li>
-                        </ul> -->
-                        <!-- <h1 class="brand-heading">Grayscale</h1> -->
-                        <!-- <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p> -->
-                        <!-- <a href="#about" class="btn btn-circle page-scroll"> -->
-                            <!-- <i class="fa fa-angle-double-down animated"></i> -->
-                        <!-- </a> -->
-
-            <!--         </div>
-                </div>
-            </div>
-        </div>
-    </header> -->
 
 <!-- large view -->
-<div class="hidden-xs hidden-sm hidden-md" style="position: relative; left: 0; top: 0;">
+<div class="hidden-xs hidden-sm hidden-md "style="position: relative; left: 0; top: 0;">
     <img src="img/cassette.png" height='100%' width='100%' style="position: relative; top: 0; left: 0; margin-top:-50px"/>
         <a class="page-scroll" href="#about" >
             <img src="img/black_about.png" height='12%' onmouseover="this.src='img/about_hover.png'" onmouseout="this.src='img/black_about.png'"style="position: absolute; top: 52%; left: 30%;"/>
@@ -127,9 +57,9 @@
         <a class="page-scroll" href="#contact" >
             <img src="img/black_contact.png" height='12%' width='12%' onmouseover="this.src='img/contact_hover.png'" onmouseout="this.src='img/black_contact.png'" style="position: absolute; top: 52%; left: 60%;"/>
         </a>
-        <a href="https://www.reddit.com/">
-            <img src="img/circle.png" height='12%' width='12%' style="background-color: red; position: absolute; top: 70%; left: 71%;"/> 
-        </a>
+        <!-- <a href="https://www.reddit.com/"> -->
+            <!-- <img src="img/circle.png" height='12%' width='12%' style="background-color: red; position: absolute; top: 70%; left: 71%;"/>  -->
+        <!-- </a> -->
 </div>
 <!-- xs, sm, md view -->
 <div class="hidden-lg" style="position: relative; left: 0; top: 0;">
@@ -146,9 +76,9 @@
         <a class="page-scroll" href="#contact" >
             <img src="img/black_contact.png" height='12%' width='12%' onmouseover="this.src='img/contact_hover.png'" onmouseout="this.src='img/black_contact.png'" style="position: absolute; top: 56%; left: 60%;"/>
         </a>
-        <a href="https://www.reddit.com/">
-            <img src="img/circle.png" height='12%' width='12%' style="background-color: red; position: absolute; top: 70%; left: 71%;"/> 
-        </a>
+        <!-- <a href="https://www.reddit.com/"> -->
+            <!-- <img src="img/circle.png" height='12%' width='12%' style="background-color: red; position: absolute; top: 70%; left: 71%;"/>  -->
+        <!-- </a> -->
 </div>
     <!-- About Section -->
     <section class="container content-section text-center">
@@ -166,12 +96,23 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <img id="music" src="img/music_header.png">
+
+                    <!-- option 3 -->
                     <!-- <iframe style="margin-top:50px"width="100%" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/64095944&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe> -->
                     <!-- <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196388889&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe> -->
-                    <iframe style="margin-top:50px"width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/122788772&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-                    <!-- <h2>music Grayscale</h2> -->
-                    <!-- <p>You can music Grayscale for free on the preview page at Start Bootstrap.</p> -->
-                    <!-- <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit music Page</a> -->
+                    
+                    <!-- option 4 -->
+                    <!-- <iframe style="margin-top:50px"width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/122788772&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe> -->
+
+                    <!-- option 1 -->
+                    <!-- <iframe width="100%" height="166" scrolling="no" frameborder="no" style="margin-top: 100px;"src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196388889&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/181382125&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/181382121&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/181382119&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe> -->
+                    
+                    <!-- option 2 -->
+                    <iframe width="100%" height="350" scrolling="no" frameborder="no" style="margin-top:100px;"src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/64095944&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196388889&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
                 </div>
             </div>
         </div>
@@ -182,13 +123,6 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <img id="shows" src="img/shows_header.png">
-<!--                     <ul ng-controller="EventListCtrl">
-                      <li ng-repeat="event in events">
-                        <span>{{event.summary}}</span>
-                        <p>{{event.description}}</p>
-                        <p>{{event.location}}</p>
-                      </li>
-                    </ul> -->
                 <div id="authorize-div" style="display: none">
                   <span>Authorize access to Google Calendar API</span>
                   <!--Button for the user to click to initiate auth sequence -->
@@ -275,6 +209,10 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Arrow to top javascript-->
+    <script src="js/main-back-to-top.js"></script>
+    <!-- // <script src="js/modernizer.js"></script> -->
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>

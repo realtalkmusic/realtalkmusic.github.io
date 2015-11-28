@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"start",
+				"start_time"
+			],
+			[
 				"get",
 				"getElementById"
 			],
@@ -488,39 +492,18 @@
 	"buffers":
 	[
 		{
+			"contents": "<!-- template located at: http://ironsummitmedia.github.io/startbootstrap-grayscale/ -->\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n\n    <!-- logo and title in header -->\n    <link rel=\"icon\" href=\"img/realtalk-circle.png\">\n    <title>Realtalk Music</title>\n\n    <!-- Bootstrap Core CSS -->\n    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <!-- Custom CSS -->\n    <link href=\"css/realtalk.css\" rel=\"stylesheet\">\n\n    <!-- Custom Fonts -->\n    <!-- <link href=\"font-awesome/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\"> -->\n    <link href=\"http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"http://fonts.googleapis.com/css?family=Montserrat:400,700\" rel=\"stylesheet\" type=\"text/css\">\n\n\n    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\n    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n    <!--[if lt IE 9]>\n        <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\n        <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n\n</head>\n\n<body id=\"page-top\" data-spy=\"scroll\" data-target=\".navbar-fixed-top\">\n\n    <!-- Navigation -->\n    <nav class=\"navbar navbar-custom navbar-fixed-top hidden-lg hidden-md hidden-sm hidden-xs\" role=\"navigation\">\n        <div class=\"container\">\n            <div class=\"navbar-header\">\n                <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-main-collapse\">\n                    <i class=\"fa fa-bars\"></i>\n                </button>\n                <a class=\"navbar-brand page-scroll\" href=\"#page-top\">\n                    <i class=\"fa fa-play-circle\"></i>  <span class=\"light\">Realtalk</span> Music\n                </a>\n            </div>\n\n            <!-- Collect the nav links, forms, and other content for toggling -->\n            <div class=\"collapse navbar-collapse navbar-right navbar-main-collapse\">\n                <ul class=\"nav navbar-nav\">\n                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->\n                    <li class=\"hidden\">\n                        <a href=\"#page-top\"></a>\n                    </li>\n                    <li>\n                        <a class=\"page-scroll\" href=\"#about\">About</a>\n                    </li>\n                    <li>\n                        <a class=\"page-scroll\" href=\"#music\">music</a>\n                    </li>\n                    <li>\n                        <a class=\"page-scroll\" href=\"#contact\">Contact</a>\n                    </li>\n                </ul>\n            </div>\n            <!-- /.navbar-collapse -->\n        </div>\n        <!-- /.container -->\n    </nav>\n\n    <!-- Intro Header -->\n   <!--  <header class=\"intro\">\n        <div class=\"intro-body\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-md-8 col-md-offset-2\">\n                        <ul style=\"position: absolute;\" class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n                            <li class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\" style=\"display:inline-block;\">\n                                <a class=\"page-scroll\" href=\"#about\" >\n                                    <img src=\"img/black_about.png\" onmouseover=\"this.src='img/about_hover.png'\" onmouseout=\"this.src='img/black_about.png'\" height=\"100%\" width=\"100%\">\n                                </a>\n                            </li>\n                            <li class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\" style=\"display:inline-block;\">\n                                <a class=\"page-scroll\" href=\"#music\" >\n                                    <img src=\"img/black_music.png\" onmouseover=\"this.src='img/music_hover.png'\" onmouseout=\"this.src='img/black_music.png'\"height=\"100%\" width=\"100%\">\n                                </a>\n                            </li>\n                            <li class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\" style=\"display:inline-block;\">\n                                <a class=\"page-scroll\" href=\"#shows\" >\n                                    <img src=\"img/black_shows.png\" onmouseover=\"this.src='img/shows_hover.png'\" onmouseout=\"this.src='img/black_shows.png'\"height=\"100%\" width=\"100%\">\n                                </a>\n                            </li>\n                            <li class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\" style=\"display:inline-block;\">\n                                <a class=\"page-scroll\" href=\"#contact\" >\n                                    <img src=\"img/black_contact.png\" onmouseover=\"this.src='img/contact_hover.png'\" onmouseout=\"this.src='img/black_contact.png'\"height=\"100%\" width=\"100%\">\n                                </a>\n                            </li>\n                        </ul> -->\n                        <!-- <h1 class=\"brand-heading\">Grayscale</h1> -->\n                        <!-- <p class=\"intro-text\">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p> -->\n                        <!-- <a href=\"#about\" class=\"btn btn-circle page-scroll\"> -->\n                            <!-- <i class=\"fa fa-angle-double-down animated\"></i> -->\n                        <!-- </a> -->\n\n            <!--         </div>\n                </div>\n            </div>\n        </div>\n    </header> -->\n\n<!-- large view -->\n<div class=\"hidden-xs hidden-sm hidden-md\" style=\"position: relative; left: 0; top: 0;\">\n    <img src=\"img/cassette.png\" height='100%' width='100%' style=\"position: relative; top: 0; left: 0; margin-top:-50px\"/>\n        <a class=\"page-scroll\" href=\"#about\" >\n            <img src=\"img/black_about.png\" height='12%' onmouseover=\"this.src='img/about_hover.png'\" onmouseout=\"this.src='img/black_about.png'\"style=\"position: absolute; top: 52%; left: 30%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#music\" >\n            <img src=\"img/black_music.png\" height='12%' onmouseover=\"this.src='img/music_hover.png'\" onmouseout=\"this.src='img/black_music.png'\" style=\"position: absolute; top: 52%; left: 40%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#shows\" >\n            <img src=\"img/black_shows.png\" height='12%' onmouseover=\"this.src='img/shows_hover.png'\" onmouseout=\"this.src='img/black_shows.png'\" style=\"position: absolute; top: 52%; left: 50%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#contact\" >\n            <img src=\"img/black_contact.png\" height='12%' width='12%' onmouseover=\"this.src='img/contact_hover.png'\" onmouseout=\"this.src='img/black_contact.png'\" style=\"position: absolute; top: 52%; left: 60%;\"/>\n        </a>\n        <a href=\"https://www.reddit.com/\">\n            <img src=\"img/circle.png\" height='12%' width='12%' style=\"background-color: red; position: absolute; top: 70%; left: 71%;\"/> \n        </a>\n</div>\n<!-- xs, sm, md view -->\n<div class=\"hidden-lg\" style=\"position: relative; left: 0; top: 0;\">\n    <img class=\"hidden-lg\" src=\"img/cassette.png\" height='10%' width='100%' style=\"position: relative; top: 0; left: 0; \"/>\n        <a class=\"page-scroll\" href=\"#about\" >\n            <img src=\"img/black_about.png\" height='12%' onmouseover=\"this.src='img/about_hover.png'\" onmouseout=\"this.src='img/black_about.png'\"style=\"position: absolute; top: 56%; left: 30%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#music\" >\n            <img src=\"img/black_music.png\" height='12%' onmouseover=\"this.src='img/music_hover.png'\" onmouseout=\"this.src='img/black_music.png'\" style=\"position: absolute; top: 56%; left: 40%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#shows\" >\n            <img src=\"img/black_shows.png\" height='12%' onmouseover=\"this.src='img/shows_hover.png'\" onmouseout=\"this.src='img/black_shows.png'\" style=\"position: absolute; top: 56%; left: 50%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#contact\" >\n            <img src=\"img/black_contact.png\" height='12%' width='12%' onmouseover=\"this.src='img/contact_hover.png'\" onmouseout=\"this.src='img/black_contact.png'\" style=\"position: absolute; top: 56%; left: 60%;\"/>\n        </a>\n        <a href=\"https://www.reddit.com/\">\n            <img src=\"img/circle.png\" height='12%' width='12%' style=\"background-color: red; position: absolute; top: 70%; left: 71%;\"/> \n        </a>\n</div>\n    <!-- About Section -->\n    <section class=\"container content-section text-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-8 col-lg-offset-2\">\n                <img id=\"about\" src=\"img/about_header.png\">\n                <p>\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"</p>\n            </div>\n        </div>\n    </section>\n\n    <!-- music Section -->\n    <section  class=\"content-section text-center\">\n        <div class=\"music-section\">\n            <div class=\"container\">\n                <div class=\"col-lg-8 col-lg-offset-2\">\n                    <img id=\"music\" src=\"img/music_header.png\">\n                    <!-- <iframe style=\"margin-top:50px\"width=\"100%\" width=\"100%\" height=\"450\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/64095944&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\"></iframe> -->\n                    <!-- <iframe width=\"100%\" height=\"450\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196388889&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\"></iframe> -->\n                    <iframe style=\"margin-top:50px\"width=\"100%\" height=\"150\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/122788772&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\"></iframe>\n                    <!-- <h2>music Grayscale</h2> -->\n                    <!-- <p>You can music Grayscale for free on the preview page at Start Bootstrap.</p> -->\n                    <!-- <a href=\"http://startbootstrap.com/template-overviews/grayscale/\" class=\"btn btn-default btn-lg\">Visit music Page</a> -->\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <!-- Shows Section -->\n    <section  class=\"container content-section text-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-8 col-lg-offset-2\">\n                <img id=\"shows\" src=\"img/shows_header.png\">\n<!--                     <ul ng-controller=\"EventListCtrl\">\n                      <li ng-repeat=\"event in events\">\n                        <span>{{event.summary}}</span>\n                        <p>{{event.description}}</p>\n                        <p>{{event.location}}</p>\n                      </li>\n                    </ul> -->\n                <div id=\"authorize-div\" style=\"display: none\">\n                  <span>Authorize access to Google Calendar API</span>\n                  <!--Button for the user to click to initiate auth sequence -->\n                  <button id=\"authorize-button\" onclick=\"handleAuthClick(event)\">\n                    Authorize\n                  </button>\n                </div>\n                <ul style=\"margin-top: 100px; list-style-type:none\">\n                    <li class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 \">\n                        <p id=\"date-1\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                        <a id=\"link-1\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" href=\"\" >\n                            <p id=\"location-1\" style=\"background-color: white; font-weight:bold\"></p>\n                        </a>\n                        <p id=\"time-1\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                    </li>\n                    <li class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 \">\n                        <p id=\"date-2\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                        <a id=\"link-2\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" href=\"\" >\n                            <p id=\"location-2\" style=\"background-color: white; font-weight:bold\"></p>\n                        </a>\n                        <p id=\"time-2\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                    </li>\n                    <li class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 \">\n                        <p id=\"date-3\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                        <a id=\"link-3\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" href=\"\" >\n                            <p id=\"location-3\" style=\"background-color: white; font-weight:bold\"></p>\n                        </a>\n                        <p id=\"time-3\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                    </li>\n                    <li class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 \">\n                        <p id=\"date-4\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                        <a id=\"link-4\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" href=\"\" >\n                            <p id=\"location-4\" style=\"background-color: white; font-weight:bold\"></p>\n                        </a>\n                        <p id=\"time-4\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                    </li>\n                    <li class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 \">\n                        <p id=\"date-5\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                        <a id=\"link-5\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" href=\"\" >\n                            <p id=\"location-5\" style=\"background-color: white; font-weight:bold\"></p>\n                        </a>\n                        <p id=\"time-5\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </section>\n\n\n    <!-- Contact Section -->\n    <section  class=\"container content-section text-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-8 col-lg-offset-2\">\n                <img id=\"contact\" src=\"img/contact_header.png\">\n                <p style=\"margin-top: 100px\"><a href=\"mailto:realtalkbandofficial@gmail.com\"><u>realtalkbandofficial@gmail.com</u></a>\n                </p>\n                <ul class=\"list-inline banner-social-buttons\">\n                    <li>\n                        <a href=\"https://twitter.com/SBootstrap\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-twitter fa-fw\"></i> <span class=\"network-name\">Twitter</span></a>\n                    </li>\n                    <li>\n                        <a href=\"https://github.com/IronSummitMedia/startbootstrap\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-github fa-fw\"></i> <span class=\"network-name\">Github</span></a>\n                    </li>\n                    <li>\n                        <a href=\"https://plus.google.com/+Startbootstrap/posts\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-google-plus fa-fw\"></i> <span class=\"network-name\">Google+</span></a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </section>\n\n    <!-- Map Section -->\n    <!-- <div id=\"map\"></div> -->\n\n    <!-- Footer -->\n    <footer>\n        <div class=\"container text-center\">\n            <p>Copyright &copy; Realtalk 2015</p>\n        </div>\n    </footer>\n\n    <!-- jQuery -->\n    <script src=\"js/jquery.js\"></script>\n\n    <!-- Bootstrap Core JavaScript -->\n    <script src=\"js/bootstrap.min.js\"></script>\n\n    <!-- Plugin JavaScript -->\n    <script src=\"js/jquery.easing.min.js\"></script>\n\n    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->\n    <script type=\"text/javascript\" src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false\"></script>\n\n    <!-- Custom Theme JavaScript -->\n    <script src=\"js/realtalk.js\"></script>\n\n    <!-- shows section -  api query -->\n    <script src=\"js/calender.js\"></script>\n    <script src=\"https://apis.google.com/js/client.js?onload=checkAuth\"></script>\n\n</body>\n\n</html>\n",
 			"file": "index.html",
+			"file_size": 17337,
+			"file_write_time": 1447220604000000,
 			"settings":
 			{
-				"buffer_size": 14832,
+				"buffer_size": 17337,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/calender.js",
-			"settings":
-			{
-				"buffer_size": 4899,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "quickstart.html",
-			"settings":
-			{
-				"buffer_size": 4065,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 1523,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/grayscale.css",
+			"file": "css/realtalk.css",
 			"settings":
 			{
 				"buffer_size": 7163,
@@ -528,10 +511,18 @@
 			}
 		},
 		{
-			"file": "js/grayscale.js",
+			"file": "js/calender.js",
 			"settings":
 			{
-				"buffer_size": 5355,
+				"buffer_size": 5598,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "quickstart.html",
+			"settings":
+			{
+				"buffer_size": 4153,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +530,7 @@
 			"file": "font-awesome/css/font-awesome.css",
 			"settings":
 			{
-				"buffer_size": 26651,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -566,7 +557,15 @@
 			"file": "events.json",
 			"settings":
 			{
-				"buffer_size": 14528,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/realtalk.js",
+			"settings":
+			{
+				"buffer_size": 5355,
 				"line_ending": "Unix"
 			}
 		}
@@ -595,10 +594,15 @@
 	},
 	"file_history":
 	[
+		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/js/grayscale.js",
+		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/js/realtalk.js",
+		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/css/grayscale.css",
+		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/README.md",
+		"/Users/jakewhite/Documents/CS/jake-white-website/jakewhite8.github.io/index.html",
+		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/realtalk-3.sublime-project",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/js/controllers.js",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/quickstart.js",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/events.json",
-		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/realtalk-3.sublime-project",
 		"/Users/jakewhite/Documents/CS/angular_phonecat/angular-phonecat.sublime-project",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/index.html",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/js/home-page.js",
@@ -717,12 +721,7 @@
 		"/Users/jakewhite/Documents/Senior/Special Topics/assignment1/assignment1.java",
 		"/Users/jakewhite/Documents/Senior/Operating Systems/helloworld.c",
 		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-9/check8.html",
-		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-10/d3/check4.html",
-		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-9/check7.html",
-		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-10/d3/check3.html",
-		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-9/check6.html",
-		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-9/check5.html",
-		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-10/d3/check1.html"
+		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-10/d3/check4.html"
 	],
 	"find":
 	{
@@ -743,6 +742,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"transparent",
+			"grayscale",
+			"angular",
+			"style=\"\"",
+			"display:inline-block",
+			"col",
 			"margin",
 			"contact",
 			"col-sm-4",
@@ -864,13 +869,7 @@
 			"http",
 			"APIPort",
 			"ApiServer",
-			"',",
-			"_w,",
-			"\"a",
-			",",
-			"diff_chl_af_",
-			"'",
-			"mff_rnk_2_"
+			"',"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -878,6 +877,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"col-xs-4 col-sm-4 col-md-4 col-lg-4",
 			"realTalkApp",
 			"music",
@@ -1004,8 +1004,7 @@
 			"_5",
 			"_6",
 			"_7",
-			"_8",
-			"_9"
+			"_8"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1024,15 +1023,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 14832,
+						"buffer_size": 17337,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5268,
-								5268
+								3142,
+								3142
 							]
 						],
 						"settings":
@@ -1042,96 +1041,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1161.0,
+						"translation.y": 1494.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/calender.js",
-					"settings":
-					{
-						"buffer_size": 4899,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4663,
-								4663
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 8.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "quickstart.html",
-					"settings":
-					{
-						"buffer_size": 4065,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2890,
-								2890
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1032.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 1523,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1066,
-								1066
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/grayscale.css",
+					"file": "css/realtalk.css",
 					"settings":
 					{
 						"buffer_size": 7163,
@@ -1141,8 +1058,8 @@
 						"selection":
 						[
 							[
-								959,
-								959
+								2797,
+								2797
 							]
 						],
 						"settings":
@@ -1152,17 +1069,73 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 493.0,
+						"translation.y": 1574.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "js/grayscale.js",
+					"buffer": 2,
+					"file": "js/calender.js",
 					"settings":
 					{
-						"buffer_size": 5355,
+						"buffer_size": 5598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3939,
+								3939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "quickstart.html",
+					"settings":
+					{
+						"buffer_size": 4153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "font-awesome/css/font-awesome.css",
+					"settings":
+					{
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -1175,34 +1148,6 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "font-awesome/css/font-awesome.css",
-					"settings":
-					{
-						"buffer_size": 26651,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17391,
-								17391
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1214,7 +1159,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/index.html",
 					"settings":
 					{
@@ -1242,7 +1187,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
 					"file": "/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/css/home-page.css",
 					"settings":
 					{
@@ -1268,24 +1213,52 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 7,
 					"file": "events.json",
 					"settings":
 					{
-						"buffer_size": 14528,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								867,
-								867
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "js/realtalk.js",
+					"settings":
+					{
+						"buffer_size": 5355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},

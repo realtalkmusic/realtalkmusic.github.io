@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"print",
+				"print_var"
+			],
+			[
+				"border-",
+				"border-style"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
 				"start",
 				"start_time"
 			],
@@ -292,10 +312,6 @@
 				"split_a_028"
 			],
 			[
-				"border",
-				"borderColor"
-			],
-			[
 				"next",
 				"next-step-11"
 			],
@@ -318,10 +334,6 @@
 			[
 				"padding",
 				"padding-top"
-			],
-			[
-				"back",
-				"background-size"
 			],
 			[
 				"class",
@@ -440,10 +452,6 @@
 				"ANSI_RED"
 			],
 			[
-				"print",
-				"println"
-			],
-			[
 				"isS",
 				"isSiteUpString"
 			],
@@ -492,13 +500,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!-- template located at: http://ironsummitmedia.github.io/startbootstrap-grayscale/ -->\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n\n    <!-- logo and title in header -->\n    <link rel=\"icon\" href=\"img/realtalk-circle.png\">\n    <title>Realtalk Music</title>\n\n    <!-- Bootstrap Core CSS -->\n    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <!-- Custom CSS -->\n    <link href=\"css/realtalk.css\" rel=\"stylesheet\">\n\n    <!-- Custom Fonts -->\n    <!-- <link href=\"font-awesome/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\"> -->\n    <link href=\"http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"http://fonts.googleapis.com/css?family=Montserrat:400,700\" rel=\"stylesheet\" type=\"text/css\">\n\n\n    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\n    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n    <!--[if lt IE 9]>\n        <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\n        <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n\n</head>\n\n<body id=\"page-top\" data-spy=\"scroll\" data-target=\".navbar-fixed-top\">\n\n    <!-- Navigation -->\n    <nav class=\"navbar navbar-custom navbar-fixed-top hidden-lg hidden-md hidden-sm hidden-xs\" role=\"navigation\">\n        <div class=\"container\">\n            <div class=\"navbar-header\">\n                <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-main-collapse\">\n                    <i class=\"fa fa-bars\"></i>\n                </button>\n                <a class=\"navbar-brand page-scroll\" href=\"#page-top\">\n                    <i class=\"fa fa-play-circle\"></i>  <span class=\"light\">Realtalk</span> Music\n                </a>\n            </div>\n\n            <!-- Collect the nav links, forms, and other content for toggling -->\n            <div class=\"collapse navbar-collapse navbar-right navbar-main-collapse\">\n                <ul class=\"nav navbar-nav\">\n                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->\n                    <li class=\"hidden\">\n                        <a href=\"#page-top\"></a>\n                    </li>\n                    <li>\n                        <a class=\"page-scroll\" href=\"#about\">About</a>\n                    </li>\n                    <li>\n                        <a class=\"page-scroll\" href=\"#music\">music</a>\n                    </li>\n                    <li>\n                        <a class=\"page-scroll\" href=\"#contact\">Contact</a>\n                    </li>\n                </ul>\n            </div>\n            <!-- /.navbar-collapse -->\n        </div>\n        <!-- /.container -->\n    </nav>\n\n    <!-- Intro Header -->\n   <!--  <header class=\"intro\">\n        <div class=\"intro-body\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-md-8 col-md-offset-2\">\n                        <ul style=\"position: absolute;\" class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">\n                            <li class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\" style=\"display:inline-block;\">\n                                <a class=\"page-scroll\" href=\"#about\" >\n                                    <img src=\"img/black_about.png\" onmouseover=\"this.src='img/about_hover.png'\" onmouseout=\"this.src='img/black_about.png'\" height=\"100%\" width=\"100%\">\n                                </a>\n                            </li>\n                            <li class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\" style=\"display:inline-block;\">\n                                <a class=\"page-scroll\" href=\"#music\" >\n                                    <img src=\"img/black_music.png\" onmouseover=\"this.src='img/music_hover.png'\" onmouseout=\"this.src='img/black_music.png'\"height=\"100%\" width=\"100%\">\n                                </a>\n                            </li>\n                            <li class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\" style=\"display:inline-block;\">\n                                <a class=\"page-scroll\" href=\"#shows\" >\n                                    <img src=\"img/black_shows.png\" onmouseover=\"this.src='img/shows_hover.png'\" onmouseout=\"this.src='img/black_shows.png'\"height=\"100%\" width=\"100%\">\n                                </a>\n                            </li>\n                            <li class=\"col-xs-3 col-sm-3 col-md-3 col-lg-3\" style=\"display:inline-block;\">\n                                <a class=\"page-scroll\" href=\"#contact\" >\n                                    <img src=\"img/black_contact.png\" onmouseover=\"this.src='img/contact_hover.png'\" onmouseout=\"this.src='img/black_contact.png'\"height=\"100%\" width=\"100%\">\n                                </a>\n                            </li>\n                        </ul> -->\n                        <!-- <h1 class=\"brand-heading\">Grayscale</h1> -->\n                        <!-- <p class=\"intro-text\">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p> -->\n                        <!-- <a href=\"#about\" class=\"btn btn-circle page-scroll\"> -->\n                            <!-- <i class=\"fa fa-angle-double-down animated\"></i> -->\n                        <!-- </a> -->\n\n            <!--         </div>\n                </div>\n            </div>\n        </div>\n    </header> -->\n\n<!-- large view -->\n<div class=\"hidden-xs hidden-sm hidden-md\" style=\"position: relative; left: 0; top: 0;\">\n    <img src=\"img/cassette.png\" height='100%' width='100%' style=\"position: relative; top: 0; left: 0; margin-top:-50px\"/>\n        <a class=\"page-scroll\" href=\"#about\" >\n            <img src=\"img/black_about.png\" height='12%' onmouseover=\"this.src='img/about_hover.png'\" onmouseout=\"this.src='img/black_about.png'\"style=\"position: absolute; top: 52%; left: 30%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#music\" >\n            <img src=\"img/black_music.png\" height='12%' onmouseover=\"this.src='img/music_hover.png'\" onmouseout=\"this.src='img/black_music.png'\" style=\"position: absolute; top: 52%; left: 40%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#shows\" >\n            <img src=\"img/black_shows.png\" height='12%' onmouseover=\"this.src='img/shows_hover.png'\" onmouseout=\"this.src='img/black_shows.png'\" style=\"position: absolute; top: 52%; left: 50%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#contact\" >\n            <img src=\"img/black_contact.png\" height='12%' width='12%' onmouseover=\"this.src='img/contact_hover.png'\" onmouseout=\"this.src='img/black_contact.png'\" style=\"position: absolute; top: 52%; left: 60%;\"/>\n        </a>\n        <a href=\"https://www.reddit.com/\">\n            <img src=\"img/circle.png\" height='12%' width='12%' style=\"background-color: red; position: absolute; top: 70%; left: 71%;\"/> \n        </a>\n</div>\n<!-- xs, sm, md view -->\n<div class=\"hidden-lg\" style=\"position: relative; left: 0; top: 0;\">\n    <img class=\"hidden-lg\" src=\"img/cassette.png\" height='10%' width='100%' style=\"position: relative; top: 0; left: 0; \"/>\n        <a class=\"page-scroll\" href=\"#about\" >\n            <img src=\"img/black_about.png\" height='12%' onmouseover=\"this.src='img/about_hover.png'\" onmouseout=\"this.src='img/black_about.png'\"style=\"position: absolute; top: 56%; left: 30%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#music\" >\n            <img src=\"img/black_music.png\" height='12%' onmouseover=\"this.src='img/music_hover.png'\" onmouseout=\"this.src='img/black_music.png'\" style=\"position: absolute; top: 56%; left: 40%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#shows\" >\n            <img src=\"img/black_shows.png\" height='12%' onmouseover=\"this.src='img/shows_hover.png'\" onmouseout=\"this.src='img/black_shows.png'\" style=\"position: absolute; top: 56%; left: 50%;\"/>\n        </a>\n        <a class=\"page-scroll\" href=\"#contact\" >\n            <img src=\"img/black_contact.png\" height='12%' width='12%' onmouseover=\"this.src='img/contact_hover.png'\" onmouseout=\"this.src='img/black_contact.png'\" style=\"position: absolute; top: 56%; left: 60%;\"/>\n        </a>\n        <a href=\"https://www.reddit.com/\">\n            <img src=\"img/circle.png\" height='12%' width='12%' style=\"background-color: red; position: absolute; top: 70%; left: 71%;\"/> \n        </a>\n</div>\n    <!-- About Section -->\n    <section class=\"container content-section text-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-8 col-lg-offset-2\">\n                <img id=\"about\" src=\"img/about_header.png\">\n                <p>\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"</p>\n            </div>\n        </div>\n    </section>\n\n    <!-- music Section -->\n    <section  class=\"content-section text-center\">\n        <div class=\"music-section\">\n            <div class=\"container\">\n                <div class=\"col-lg-8 col-lg-offset-2\">\n                    <img id=\"music\" src=\"img/music_header.png\">\n                    <!-- <iframe style=\"margin-top:50px\"width=\"100%\" width=\"100%\" height=\"450\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/64095944&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\"></iframe> -->\n                    <!-- <iframe width=\"100%\" height=\"450\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196388889&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\"></iframe> -->\n                    <iframe style=\"margin-top:50px\"width=\"100%\" height=\"150\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/122788772&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true\"></iframe>\n                    <!-- <h2>music Grayscale</h2> -->\n                    <!-- <p>You can music Grayscale for free on the preview page at Start Bootstrap.</p> -->\n                    <!-- <a href=\"http://startbootstrap.com/template-overviews/grayscale/\" class=\"btn btn-default btn-lg\">Visit music Page</a> -->\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <!-- Shows Section -->\n    <section  class=\"container content-section text-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-8 col-lg-offset-2\">\n                <img id=\"shows\" src=\"img/shows_header.png\">\n<!--                     <ul ng-controller=\"EventListCtrl\">\n                      <li ng-repeat=\"event in events\">\n                        <span>{{event.summary}}</span>\n                        <p>{{event.description}}</p>\n                        <p>{{event.location}}</p>\n                      </li>\n                    </ul> -->\n                <div id=\"authorize-div\" style=\"display: none\">\n                  <span>Authorize access to Google Calendar API</span>\n                  <!--Button for the user to click to initiate auth sequence -->\n                  <button id=\"authorize-button\" onclick=\"handleAuthClick(event)\">\n                    Authorize\n                  </button>\n                </div>\n                <ul style=\"margin-top: 100px; list-style-type:none\">\n                    <li class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 \">\n                        <p id=\"date-1\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                        <a id=\"link-1\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" href=\"\" >\n                            <p id=\"location-1\" style=\"background-color: white; font-weight:bold\"></p>\n                        </a>\n                        <p id=\"time-1\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                    </li>\n                    <li class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 \">\n                        <p id=\"date-2\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                        <a id=\"link-2\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" href=\"\" >\n                            <p id=\"location-2\" style=\"background-color: white; font-weight:bold\"></p>\n                        </a>\n                        <p id=\"time-2\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                    </li>\n                    <li class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 \">\n                        <p id=\"date-3\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                        <a id=\"link-3\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" href=\"\" >\n                            <p id=\"location-3\" style=\"background-color: white; font-weight:bold\"></p>\n                        </a>\n                        <p id=\"time-3\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                    </li>\n                    <li class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 \">\n                        <p id=\"date-4\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                        <a id=\"link-4\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" href=\"\" >\n                            <p id=\"location-4\" style=\"background-color: white; font-weight:bold\"></p>\n                        </a>\n                        <p id=\"time-4\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                    </li>\n                    <li class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 \">\n                        <p id=\"date-5\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                        <a id=\"link-5\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" href=\"\" >\n                            <p id=\"location-5\" style=\"background-color: white; font-weight:bold\"></p>\n                        </a>\n                        <p id=\"time-5\" class = \"col-xs-4 col-sm-4 col-md-4 col-lg-4\" ></p>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </section>\n\n\n    <!-- Contact Section -->\n    <section  class=\"container content-section text-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-8 col-lg-offset-2\">\n                <img id=\"contact\" src=\"img/contact_header.png\">\n                <p style=\"margin-top: 100px\"><a href=\"mailto:realtalkbandofficial@gmail.com\"><u>realtalkbandofficial@gmail.com</u></a>\n                </p>\n                <ul class=\"list-inline banner-social-buttons\">\n                    <li>\n                        <a href=\"https://twitter.com/SBootstrap\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-twitter fa-fw\"></i> <span class=\"network-name\">Twitter</span></a>\n                    </li>\n                    <li>\n                        <a href=\"https://github.com/IronSummitMedia/startbootstrap\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-github fa-fw\"></i> <span class=\"network-name\">Github</span></a>\n                    </li>\n                    <li>\n                        <a href=\"https://plus.google.com/+Startbootstrap/posts\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-google-plus fa-fw\"></i> <span class=\"network-name\">Google+</span></a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </section>\n\n    <!-- Map Section -->\n    <!-- <div id=\"map\"></div> -->\n\n    <!-- Footer -->\n    <footer>\n        <div class=\"container text-center\">\n            <p>Copyright &copy; Realtalk 2015</p>\n        </div>\n    </footer>\n\n    <!-- jQuery -->\n    <script src=\"js/jquery.js\"></script>\n\n    <!-- Bootstrap Core JavaScript -->\n    <script src=\"js/bootstrap.min.js\"></script>\n\n    <!-- Plugin JavaScript -->\n    <script src=\"js/jquery.easing.min.js\"></script>\n\n    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->\n    <script type=\"text/javascript\" src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false\"></script>\n\n    <!-- Custom Theme JavaScript -->\n    <script src=\"js/realtalk.js\"></script>\n\n    <!-- shows section -  api query -->\n    <script src=\"js/calender.js\"></script>\n    <script src=\"https://apis.google.com/js/client.js?onload=checkAuth\"></script>\n\n</body>\n\n</html>\n",
 			"file": "index.html",
-			"file_size": 17337,
-			"file_write_time": 1447220604000000,
 			"settings":
 			{
-				"buffer_size": 17337,
+				"buffer_size": 14763,
 				"line_ending": "Unix"
 			}
 		},
@@ -506,7 +511,7 @@
 			"file": "css/realtalk.css",
 			"settings":
 			{
-				"buffer_size": 7163,
+				"buffer_size": 7174,
 				"line_ending": "Unix"
 			}
 		},
@@ -514,7 +519,7 @@
 			"file": "js/calender.js",
 			"settings":
 			{
-				"buffer_size": 5598,
+				"buffer_size": 5718,
 				"line_ending": "Unix"
 			}
 		},
@@ -527,21 +532,13 @@
 			}
 		},
 		{
+			"contents": "",
 			"file": "font-awesome/css/font-awesome.css",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n    <link rel=\"icon\" href=\"images/circle-logo.png\">\n\n    <title>RealTalk Music</title>\n\n    <!-- Bootstrap core CSS -->\n    <link href=\"bootstrap-3.3.5/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <!-- Custom styles for this template -->\n    <link href=\"css/home-page.css\" rel=\"stylesheet\">\n\n    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->\n    <!--[if lt IE 9]><script src=\"../../assets/js/ie8-responsive-file-warning.js\"></script><![endif]-->\n    <script src=\"bootstrap-3.3.5/assets/js/ie-emulation-modes-warning.js\"></script>\n\n    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->\n    <!--[if lt IE 9]>\n      <script src=\"https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\n      <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n  </head>\n\n  <body>\n\n    <nav class=\"navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"#\">RealTalk</a>\n        </div>\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n          <ul class=\"nav navbar-nav\">\n            <li class=\"active\"><a href=\"#\">Home</a></li>\n            <li><a href=\"#about\">About</a></li>\n            <li><a href=\"#music\">Music</a></li>\n            <li><a href=\"#shows\">Shows</a></li>\n            <li><a href=\"#contact\">Contact</a></li>\n          </ul>\n        </div><!--/.nav-collapse -->\n      </div>\n    </nav>\n\n<!-- MOBILE VIEW ************-->\n    <div class=\"container hidden-sm hidden-md hidden-lg\" style=\"padding: 0 0 0 0\">\n\n      <div class=\"home-page\" style=\"background: #000 url(images/circle-logo.png) 50% 50% no-repeat; height:100vh; width: 100vw;\">\n        <h1>Mobile</h1>\n        <p class=\"lead\"></p>\n      </div>\n\n    </div><!-- /.container -->\n\n<!-- SMALL VIEW ************-->\n    <div class=\"container hidden-xs hidden-md hidden-lg\" style=\"margin-right: 0; margin-left:0; padding: 0 0 0 0;\">\n\n      <div class=\"home-page\" style=\"background: #000 url(images/cassette2.png) 50% 50% no-repeat; background-size: contain; height:100vh; width: 100vw;\">\n        <!-- /*width:100%; height:100%; background-img: url(images/cassette1.jpg); background-size: cover; background-poistion: 50% 0%; background-repeat: no-repeat;*/ -->\n        <h1>Small</h1>\n        <p class=\"lead\"></p>\n      </div>\n\n    </div><!-- /.container -->\n\n<!-- MEDIUM VIEW ************-->\n    <div class=\"container hidden-xs hidden-sm hidden-lg\" style=\"margin-right: 0; margin-left:0; padding: 0 0 0 0;\">\n\n      <div class=\"home-page\" style=\"background: #000 url(images/cassette1.jpg) 50% 50% no-repeat; background-size: contain; height:100vh; width: 100vw;\">\n        <h1>Medium</h1>\n        <p class=\"lead\"></p>\n      </div>\n\n    </div><!-- /.container -->\n\n<!-- LARGE VIEW ************-->\n    <div class=\"container hidden-xs hidden-sm hidden-md\" style=\"margin-right: 0; margin-left:0; padding: 0 0 0 0; background-color: #000\">\n\n      <div class=\"home-page\" style=\"background: #000 url(images/cassette2.png) 50% 50% no-repeat; background-size: contain; height:642px; width: 100vw;\">\n        <h1 style=\"margin-top: 50px; font-size: 100px;\">RealTalk</h1>\n        <ul class=\"headings-unordered-list\">\n          <li class=\"headings-list-instance\">\n            <a class=\"headings-home\" href=\"about.html\" title=\"About\">About</a>\n          </li>\n          <li class=\"headings-list-instance\">\n            <a class=\"headings-home\" href=\"#\" title=\"Music\">Music</a>\n          </li>\n          <li class=\"headings-list-instance\">\n            <a class=\"headings-home\" href=\"#\" title=\"Shows\">Shows</a>]\n          </li>\n          <li class=\"headings-list-instance\">\n            <a class=\"headings-home\" href=\"#\" title=\"Contact\">Contact</a>\n          </li>\n        </ul>        \n      </div>\n\n    </div><!-- /.container -->\n\n<!-- ********************************************************* -->\n<!-- custom js -->\n    <script src=\"js/home-page.js\"></script>\n\n    <!-- Bootstrap core JavaScript\n    ================================================== -->\n    <!-- Placed at the end of the document so the pages load faster -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js\"></script>\n    <script src=\"bootstrap-3.3.5/dist/js/bootstrap.min.js\"></script>\n    \n    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->\n    <script src=\"bootstrap-3.3.5/assets/js/ie10-viewport-bug-workaround.js\"></script>\n  </body>\n</html>\n",
-			"file": "/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/index.html",
-			"file_size": 5300,
-			"file_write_time": 1446103008000000,
-			"settings":
-			{
-				"buffer_size": 5301,
 				"line_ending": "Unix"
 			}
 		},
@@ -565,7 +562,26 @@
 			"file": "js/realtalk.js",
 			"settings":
 			{
-				"buffer_size": 5355,
+				"buffer_size": 5356,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* -------------------------------- \n\nPrimary style\n\n-------------------------------- */\n\n\n/* -------------------------------- \n\nModules - reusable parts of our design\n\n-------------------------------- */\n.cd-container {\n  width: 90%;\n  max-width: 768px;\n  margin: 2em auto;\n}\n.cd-container::after {\n  /* clearfix */\n  content: '';\n  display: table;\n  clear: both;\n}\n\n/* -------------------------------- \n\nMain components \n\n-------------------------------- */\n\n\n.cd-top {\n  display: inline-block;\n  height: 40px;\n  width: 40px;\n  position: fixed;\n  top: 5%;\n  left: 5%;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);\n  /* image replacement properties */\n  overflow: hidden;\n  text-indent: 100%;\n  white-space: nowrap;\n  background: url(../img/back_to_top.png) no-repeat center 50%;\n  visibility: hidden;\n  opacity: 0;\n  -webkit-transition: opacity .3s 0s, visibility 0s .3s;\n  -moz-transition: opacity .3s 0s, visibility 0s .3s;\n  transition: opacity .3s 0s, visibility 0s .3s;\n}\n.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {\n  -webkit-transition: opacity .3s 0s, visibility 0s 0s;\n  -moz-transition: opacity .3s 0s, visibility 0s 0s;\n  transition: opacity .3s 0s, visibility 0s 0s;\n}\n.cd-top.cd-is-visible {\n  /* the button becomes visible */\n  visibility: visible;\n  opacity: 1;\n}\n\n/*.no-touch .cd-top:hover {\n  background-color: #e86256;\n  opacity: 1;\n}*/\n\n",
+			"file": "css/style-back-to-top.css",
+			"file_size": 1382,
+			"file_write_time": 1448666384000000,
+			"settings":
+			{
+				"buffer_size": 1381,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main-back-to-top.js",
+			"settings":
+			{
+				"buffer_size": 879,
 				"line_ending": "Unix"
 			}
 		}
@@ -594,6 +610,8 @@
 	},
 	"file_history":
 	[
+		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/css/reset.css",
+		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/index.html",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/js/grayscale.js",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/js/realtalk.js",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/css/grayscale.css",
@@ -604,7 +622,6 @@
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/quickstart.js",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-3/events.json",
 		"/Users/jakewhite/Documents/CS/angular_phonecat/angular-phonecat.sublime-project",
-		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/index.html",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/js/home-page.js",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/css/home-page.css",
 		"/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/about.html",
@@ -720,8 +737,7 @@
 		"/Users/jakewhite/Documents/Senior/special_topics/assignment1/assignment1.java",
 		"/Users/jakewhite/Documents/Senior/Special Topics/assignment1/assignment1.java",
 		"/Users/jakewhite/Documents/Senior/Operating Systems/helloworld.c",
-		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-9/check8.html",
-		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-10/d3/check4.html"
+		"/Users/jakewhite/Documents/Senior/big_data/challenge-week-9/check8.html"
 	],
 	"find":
 	{
@@ -742,6 +758,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"music-section",
 			"transparent",
 			"grayscale",
 			"angular",
@@ -868,8 +885,7 @@
 			"form",
 			"http",
 			"APIPort",
-			"ApiServer",
-			"',"
+			"ApiServer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1015,7 +1031,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1023,15 +1039,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 17337,
+						"buffer_size": 14763,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3142,
-								3142
+								8733,
+								8733
 							]
 						],
 						"settings":
@@ -1041,7 +1057,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1494.0,
+						"translation.y": 1667.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1051,15 +1067,15 @@
 					"file": "css/realtalk.css",
 					"settings":
 					{
-						"buffer_size": 7163,
+						"buffer_size": 7174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2797,
-								2797
+								3628,
+								3628
 							]
 						],
 						"settings":
@@ -1069,7 +1085,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1574.0,
+						"translation.y": 2390.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1079,15 +1095,15 @@
 					"file": "js/calender.js",
 					"settings":
 					{
-						"buffer_size": 5598,
+						"buffer_size": 5718,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3939,
-								3939
+								2575,
+								2575
 							]
 						],
 						"settings":
@@ -1160,34 +1176,6 @@
 				},
 				{
 					"buffer": 5,
-					"file": "/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/index.html",
-					"settings":
-					{
-						"buffer_size": 5301,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4445,
-								4445
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 916.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "/Users/jakewhite/Documents/CS/real-talk/realtalk-static-2/css/home-page.css",
 					"settings":
 					{
@@ -1213,7 +1201,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "events.json",
 					"settings":
 					{
@@ -1241,11 +1229,67 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "js/realtalk.js",
 					"settings":
 					{
-						"buffer_size": 5355,
+						"buffer_size": 5356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5356,
+								5356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2076.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "css/style-back-to-top.css",
+					"settings":
+					{
+						"buffer_size": 1381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1287,
+								1287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 310.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "js/main-back-to-top.js",
+					"settings":
+					{
+						"buffer_size": 879,
 						"regions":
 						{
 						},
@@ -1259,8 +1303,7 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1330,7 +1373,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 214.0,
 	"status_bar_visible": true
 }

@@ -63,26 +63,27 @@
        */
       function listUpcomingEvents() {
         var request = gapi.client.calendar.events.list({
-          'calendarId': 'primary',
+          'calendarId': 'uq0l4rmnfr5jt30l3eakg52pao@group.calendar.google.com',
           'timeMin': (new Date()).toISOString(),
           'showDeleted': false,
           'singleEvents': true,
           'maxResults': 10,
           'orderBy': 'startTime'
+
         });
 
         request.execute(function(resp) {
           var events = resp.items;
           
-          
-          // console.log(events)
+          // var print_var = JSON.stringify(events)
+          // console.log(print_var)
+
 
           if (events.length > 0) {
             for (i = 0; i < 5; i++) {
               var event = events[i];            //individual object
               var link = event.description;     //extract object description (link to venue/tickets page)
 
-              // console.log(event)
               appendDateTime(event.start, event.end, i+1)
               appendLink(link, i+1);
               appendLocation(event.summary, i+1)

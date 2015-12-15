@@ -169,20 +169,18 @@ a:focus {
     font-size: 18px;
 }
 
-@media(min-width:768px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
+/*limiting size of cassette on large screens*/
+@media(min-width:1500px) {
+    .introduction-section {
+        border-style: solid;
+        border-width: 10px;
+        border-color: red;
+        width: 60%;
+        margin-left: 20%;
 
-    .intro .intro-body .brand-heading {
-        font-size: 100px;
-    }
-
-    .intro .intro-body .intro-text {
-        font-size: 26px;
     }
 }
+
 
 .btn-circle {
     width: 70px;

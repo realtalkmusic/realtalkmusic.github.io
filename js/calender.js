@@ -104,7 +104,7 @@
         {
           return
         }
-        aTag.setAttribute("href", "https://" + message);
+        aTag.setAttribute("href", "http://" + message);
       }
 
 
